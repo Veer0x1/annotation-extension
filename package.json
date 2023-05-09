@@ -13,6 +13,7 @@
     "@hypothesis/frontend-shared": "^6.1.1",
     "classnames": "^2.3.2",
     "plasmo": "0.70.1",
+    "preact": "^10.13.2",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
