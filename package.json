@@ -10,6 +10,8 @@
     "package": "plasmo package"
   },
   "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@hypothesis/frontend-shared": "^6.1.1",
     "classnames": "^2.3.2",
     "plasmo": "0.70.1",
