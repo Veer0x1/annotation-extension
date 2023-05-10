@@ -5,15 +5,20 @@ import type { ButtonHTMLAttributes } from "react"
 
 interface PencilButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   onClick?: () => void
+  isVisible: boolean
 }
 
 const PencilButton: React.FC<PencilButtonProps> = ({
   children,
   onClick,
-  ...props
+  isVisible
 }) => {
   return (
-    <button onClick={onClick} {...props}>
+    <button
+      onClick={onClick}
+      style={{
+        visibility: isVisible ? "visible" : "hidden"
+      }}>
       {children} <FontAwesomeIcon icon={faPencilAlt} />
     </button>
   )
